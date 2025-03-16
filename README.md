@@ -8,10 +8,10 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Pedro Henrique Mendes de Souza
+- Matricula: 893437
+- Proposta de projeto escolhida: Diretório de Receitas
+- Breve descrição sobre seu projeto: Página inicial com receitas mais acessadas guiando à páginas de cada receita ensinando o modo de preparo e os ingredientes.
 
 
 ## Print do esboço criada

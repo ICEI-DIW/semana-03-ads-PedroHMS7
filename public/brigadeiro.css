@@ -1,0 +1,132 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    height: 110px;
+    color: white;
+    background-color: #e65100;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+.linha-vertical {
+    width: 4px; /* Espessura da linha */
+    height: 80vh; /* Altura da linha (100% da altura da tela) */
+    background-color: #000; /* Cor da linha */
+    margin-left: -70px; /* Alinhar a linha ao centro */
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaçar os dois lados do conteúdo */
+    align-items: center; /* Alinhar os itens ao centro verticalmente */
+    height: 100vh; /* Preencher toda a altura da tela */
+}
+.conteudo {
+    flex: 1; /* Cada lado ocupa metade da tela */
+    padding: 60px;
+}
+.subtit{
+    font-size: 35px;
+    margin-top: -340px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #e65100;
+    font-weight: bolder;
+}
+.subtit2{
+    font-size: 35px;
+    margin-top: -360px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #e65100;
+    font-weight: bolder;
+}
+li{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  header .logo h1 {
+    font-size: 24px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff7a00;
+  }
+  
+  /* Estilos do botão Favoritar */
+  .favorite-button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .favorite-button:hover {
+    background-color: #ff7a00;
+  }
+  
+  .favorite-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .favorite-button .favorite-icon {
+    margin-right: 5px;
+  }
+  
+  main {
+    padding: 20px;
+  }

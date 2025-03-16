@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .favorite-container {
+    text-align: center;
+  }
+  
+  .favorite-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .favorite-button:hover {
+    background-color: #ff7a00;
+  }
+  
+  .favorite-checkbox {
+    display: none;
+  }
+  
+  .favorite-checkbox:checked + .favorite-button .favorite-icon {
+    color: gold;
+    content: "\2605";  /* Estrela cheia */
+  }
+  
+  .favorite-icon {
+    color: #ccc;
+    font-size: 20px;
+  }
