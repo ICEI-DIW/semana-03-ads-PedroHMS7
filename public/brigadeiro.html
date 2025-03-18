@@ -11,11 +11,7 @@
         <div class="logo">
         Sabores da Cozinha
         </div>
-        <div class="favorite-container">
-            <button class="favorite-button">
-              <span class="favorite-icon">&#9734;</span> Favoritar
-            </button>
-          </div>
+        <button class="favorite-btn" onclick="adicionarLista()">Favoritar receita+</button>
     </header>
     <h1>1. Brigadeiro de colher</h1>
     <div class="container">
@@ -39,7 +35,12 @@
                 </ul>
             </div>
         </div>
-            
+         <script>
+            function adicionarLista() 
+            {
+                alert("Receita adicionado aos favoritos!");
+            }
+        </script>
     
 </body>
 </html>
