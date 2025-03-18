@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="panqueca.css">
 </head>
 <body>
-    <header>Sabor da Cozinha</header>
+    <header>
+        <div class="logo">
+        Sabor da Cozinha
+        </div>
+        <button class="favorite-btn" onclick="adicionarLista()">❤️ Favoritar</button>
+    </header>
     <h1>5.Panqueca</h1>
   
     <div class="container">
@@ -33,6 +38,12 @@
                 </ul>
             </div>
         </div>
+        <script>
+            function adicionarLista() 
+            {
+                alert("Receita adicionado aos favoritos!");
+            }
+        </script>
 
 </body>
 </html>

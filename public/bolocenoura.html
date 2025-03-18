@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="bolocenoura.css">
 </head>
 <body>
-    <header>Sabor da Cozinha</header>
+    <header>
+        <div class="logo">
+        Sabores da Cozinha
+        </div>
+        <button class="favorite-btn" onclick="adicionarLista()">❤️ Favoritar</button>
+    </header>
     <h1>4.Bolo de cenoura</h1>
     
     <div class="container">
@@ -44,5 +49,11 @@
                     </ul>
                 </div>
             </div>
+            <script>
+                function adicionarLista() 
+                {
+                    alert("Receita adicionado aos favoritos!");
+                }
+            </script>
 </body>
 </html>
