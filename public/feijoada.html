@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="feijoada.css">
 </head>
 <body>
+    <header>
+    <div class="logo">
+    Sabor da Cozinha
+    </div>
+    <button class="favorite-btn" onclick="adicionarLista()">Favoritar receita+</button>
+    </header>
     <h1>6.Feijoada</h1>
+    <div class="container">
+        <div class="conteudo">
     <p class="subtit">Ingredientes:</p>
         <ul>
             <li>1 Kg de feijão preto</li>
@@ -27,6 +36,9 @@
             <li>1 ou 2 laranjas</li>
             <li>Sal se precisar</li>
         </ul>
+    </div>
+    <div class="linha-vertical"></div>
+    <div class="conteudo">
     <p class="subtit">Modo de preparo: 2h20min</p>
         <ul>
             <li>Coloque as carnes de molho por 36 horas ou mais, vá trocando a água várias vezes, se for ambiente quente ou verão, 
@@ -36,9 +48,14 @@
             <li>Finalmente tempere o feijão.</li>
             <li>Acompanhamentos: Couve, arroz branco, laranja, bistecas, farofa, quibebe de abóbora, baião de dois, bacon, torresmo, linguiça e caldo temperado - copinhos.</li>
         </ul>
-
-
-
+    </div>
+</div>
+<script>
+    function adicionarLista() 
+    {
+        alert("Receita adicionado aos favoritos!");
+    }
+</script>
 
 </body>
 </html>
