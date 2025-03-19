@@ -11,14 +11,16 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Nome: Pedro Henrique Mendes de Souza
 - Matricula: 893437
 - Proposta de projeto escolhida: Diretório de Receitas
-- Breve descrição sobre seu projeto: Página inicial com receitas mais acessadas guiando à páginas de cada receita ensinando o modo de preparo e os ingredientes.
+- Breve descrição sobre seu projeto: Diretório de receitas com uma página inicial das receitas mais acessadas guiando à páginas de cada receita que ensinam o modo de preparo e os ingredientes necessários.
 
 
 ## Print do esboço criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](<public/imagens comidas/Homepage/esboço.png>)
 
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](<public/imagens comidas/Homepage/Home-page.png>)
